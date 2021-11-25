@@ -53,7 +53,7 @@
                   <Component id="btnLogar" alignment="1" min="-2" pref="200" max="-2" attributes="0"/>
                   <Component id="btnCadastrar" alignment="1" min="-2" pref="200" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="286" max="32767" attributes="0"/>
+              <EmptySpace pref="277" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
