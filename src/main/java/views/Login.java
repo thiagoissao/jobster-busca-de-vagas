@@ -35,7 +35,7 @@ public class Login extends javax.swing.JFrame {
         loginField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        btnRegisterNow = new javax.swing.JLabel();
         jCheckBox1 = new javax.swing.JCheckBox();
         jLabel4 = new javax.swing.JLabel();
 
@@ -82,8 +82,13 @@ public class Login extends javax.swing.JFrame {
 
         jLabel2.setText("Don't have an account?");
 
-        jLabel3.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
-        jLabel3.setText("Register Now!");
+        btnRegisterNow.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
+        btnRegisterNow.setText("Register Now!");
+        btnRegisterNow.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnRegisterNowMouseClicked(evt);
+            }
+        });
 
         jCheckBox1.setText("Remember me");
 
@@ -109,7 +114,7 @@ public class Login extends javax.swing.JFrame {
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel2)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jLabel3)))
+                                    .addComponent(btnRegisterNow)))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jCheckBox1)
                                 .addGap(59, 59, 59)
@@ -134,7 +139,7 @@ public class Login extends javax.swing.JFrame {
                 .addGap(62, 62, 62)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(jLabel3))
+                    .addComponent(btnRegisterNow))
                 .addContainerGap(81, Short.MAX_VALUE))
         );
 
@@ -142,7 +147,9 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonActionPerformed
-        // TODO add your handling code here:
+        Inicio inicioScreen = new Inicio();
+        inicioScreen.setVisible(true);
+        dispose();
     }//GEN-LAST:event_submitButtonActionPerformed
 
     private void passwordFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordFieldActionPerformed
@@ -152,6 +159,12 @@ public class Login extends javax.swing.JFrame {
     private void loginField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_loginField1ActionPerformed
+
+    private void btnRegisterNowMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRegisterNowMouseClicked
+        Cadastro cadastro = new Cadastro();
+        cadastro.setVisible(true);
+        dispose(); 
+    }//GEN-LAST:event_btnRegisterNowMouseClicked
 
     /**
      * @param args the command line arguments
@@ -190,10 +203,10 @@ public class Login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel btnRegisterNow;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField loginField1;
