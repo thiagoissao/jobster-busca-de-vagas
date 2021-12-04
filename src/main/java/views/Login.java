@@ -147,8 +147,8 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonActionPerformed
-        Inicio inicioScreen = new Inicio();
-        inicioScreen.setVisible(true);
+        InicioFeedPessoa inicioFeedPessoa = new InicioFeedPessoa();
+        inicioFeedPessoa.setVisible(true);
         dispose();
     }//GEN-LAST:event_submitButtonActionPerformed
 

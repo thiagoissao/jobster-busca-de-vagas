@@ -130,8 +130,8 @@ public class CadastroPessoa extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogarActionPerformed
-        Inicio inicioScreen = new Inicio();
-        inicioScreen.setVisible(true);
+        InicioFeedPessoa inicioFeedPessoa = new InicioFeedPessoa();
+        inicioFeedPessoa.setVisible(true);
         dispose();
     }//GEN-LAST:event_btnLogarActionPerformed
 

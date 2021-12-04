@@ -8,12 +8,12 @@ package views;
  *
  * @author vitor
  */
-public class FichaTecnica extends javax.swing.JFrame {
+public class JobOffer extends javax.swing.JFrame {
 
     /**
      * Creates new form FichaTecnica
      */
-    public FichaTecnica() {
+    public JobOffer() {
         initComponents();
     }
 
@@ -50,7 +50,6 @@ public class FichaTecnica extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(900, 650));
 
         jButton2.setText("Voltar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -104,7 +103,7 @@ public class FichaTecnica extends javax.swing.JFrame {
 
         Degrees.setBackground(new java.awt.Color(52, 52, 52));
 
-        jLabel2.setText("Academic Degrees:");
+        jLabel2.setText("Role");
 
         javax.swing.GroupLayout DegreesLayout = new javax.swing.GroupLayout(Degrees);
         Degrees.setLayout(DegreesLayout);
@@ -126,7 +125,7 @@ public class FichaTecnica extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(52, 52, 52));
 
-        jLabel1.setText("Professional Experience:");
+        jLabel1.setText("Requirements");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -147,7 +146,7 @@ public class FichaTecnica extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(52, 52, 52));
 
-        jLabel3.setText("Occupation Area:");
+        jLabel3.setText("Availability");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -193,7 +192,7 @@ public class FichaTecnica extends javax.swing.JFrame {
                 .addComponent(jTextField4, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE))
         );
 
-        jButton1.setText("Save Changes");
+        jButton1.setText("CREATE");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -226,7 +225,7 @@ public class FichaTecnica extends javax.swing.JFrame {
             .addGap(0, 100, Short.MAX_VALUE)
         );
 
-        jLabel5.setText("Edit Professional Details");
+        jLabel5.setText("Create a new job offer");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -315,8 +314,8 @@ public class FichaTecnica extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       InicioFeedPessoa inicioFeedPessoa = new InicioFeedPessoa();
-        inicioFeedPessoa.setVisible(true);
+       InicioFeedEmpresa inicioFeedEmpresa = new InicioFeedEmpresa();
+        inicioFeedEmpresa.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -325,8 +324,8 @@ public class FichaTecnica extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        InicioFeedPessoa inicioFeedPessoa = new InicioFeedPessoa();
-        inicioFeedPessoa.setVisible(true);
+        InicioFeedEmpresa inicioFeedEmpresa = new InicioFeedEmpresa();
+        inicioFeedEmpresa.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -347,20 +346,21 @@ public class FichaTecnica extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FichaTecnica.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JobOffer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FichaTecnica.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JobOffer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FichaTecnica.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JobOffer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FichaTecnica.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JobOffer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FichaTecnica().setVisible(true);
+                new JobOffer().setVisible(true);
             }
         });
     }
