@@ -24,9 +24,13 @@ O projeto está utilizando a linguagem JAVA, abaixo segue as versões e IDE util
 Como o projeto possui somente as telas, sem as suas devidas validações, o fluxo feliz para um usuário PESSOA segue alguns critérios. Com o projeto rodando na sua máquina, faça isso:
 
 1. Clique na opção `REGISTER`
+
 2. Com duas opções sendo exibidas, selecione a opção `JOB!`
+
 3. Um formulário será exibido, como não existe implementação para a validação dos dados, é possível acessar o sistema apenas clicando em `JOIN NOW!`
+
 4. PRONTO! Agora você tem acesso ao painel de PESSOA
+
 5. Para sair do painel PESSOA, clique na opção `EXIT`
 
 6. FLUXO ALTERNATIVO: Você consegue acessar ao painel de PESSOA clicando em `LOGIN`.
@@ -36,7 +40,11 @@ Como o projeto possui somente as telas, sem as suas devidas validações, o flux
 Como o projeto possui somente as telas, sem as suas devidas validações, o fluxo feliz para um usuário EMPRESA segue alguns critérios. Com o projeto rodando na sua máquina, faça isso:
 
 1. Clique na opção `REGISTER`
+
 2. Com duas opções sendo exibidas, selecione a opção `COMPANY!`
+
 3. Um formulário será exibido, como não existe implementação para a validação dos dados, é possível acessar o sistema apenas clicando em `JOIN NOW!`
+
 4. PRONTO! Agora você tem acesso ao painel de EMPRESA
+
 5. Para sair do painel EMPRESA, clique na opção `EXIT`
