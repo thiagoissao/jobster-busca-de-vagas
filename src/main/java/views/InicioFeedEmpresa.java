@@ -42,6 +42,7 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         btnCadastrar3 = new javax.swing.JButton();
@@ -90,6 +91,11 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
         jButton1.setText("YOUR  JOB OFFERS");
 
         jButton2.setText("SOLICITATIONS");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("PROFILE");
 
@@ -155,13 +161,15 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(1, 1, 1));
         jLabel2.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
-        jLabel2.setText("MY SOLICITATIONS");
+        jLabel2.setText("FEED");
 
         jPanel5.setBackground(new java.awt.Color(181, 181, 181));
 
         jLabel4.setBackground(new java.awt.Color(9, 9, 9));
         jLabel4.setForeground(new java.awt.Color(5, 5, 5));
-        jLabel4.setText("A new user applied for the “Marketing Manager” offer!");
+        jLabel4.setText("User xxxx applied for your job offer xxxxxx");
+
+        jButton5.setText("view");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -169,15 +177,19 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(52, 52, 52)
-                .addComponent(jLabel4)
-                .addContainerGap(135, Short.MAX_VALUE))
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton5)
+                .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap(25, Short.MAX_VALUE)
-                .addComponent(jLabel4)
-                .addGap(21, 21, 21))
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(jButton5))
+                .addGap(17, 17, 17))
         );
 
         jPanel6.setBackground(new java.awt.Color(181, 181, 181));
@@ -193,7 +205,7 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(57, 57, 57)
                 .addComponent(jLabel5)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(178, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -208,9 +220,9 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(256, 256, 256)
                 .addComponent(jLabel2)
-                .addGap(197, 197, 197))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -314,6 +326,12 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        EmpresaMySolicitations screen = new EmpresaMySolicitations();
+        screen.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -360,6 +378,7 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

@@ -8,12 +8,12 @@ package views;
  *
  * @author thiago
  */
-public class InicioFeedPessoa extends javax.swing.JFrame {
+public class PessoaMySolicitations extends javax.swing.JFrame {
 
     /**
      * Creates new form Inicio
      */
-    public InicioFeedPessoa() {
+    public PessoaMySolicitations() {
         initComponents();
     }
 
@@ -42,7 +42,7 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
-        jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
         btnCadastrar3 = new javax.swing.JButton();
@@ -95,7 +95,7 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("MY SOLICITATIONS");
+        jButton2.setText("FEED");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -156,22 +156,22 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(1, 1, 1));
         jLabel2.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
-        jLabel2.setText("FEED");
+        jLabel2.setText("MY SOLICITATIONS");
 
         jPanel5.setBackground(new java.awt.Color(181, 181, 181));
 
         jLabel4.setBackground(new java.awt.Color(9, 9, 9));
         jLabel4.setForeground(new java.awt.Color(5, 5, 5));
-        jLabel4.setText("Company XX S/A created a new job offer that matches your profile!");
+        jLabel4.setText("Your application for job xxxx has not been accepted yet");
 
-        jButton4.setText("Apply");
+        jButton4.setText("View more");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap(503, Short.MAX_VALUE)
+                .addContainerGap(467, Short.MAX_VALUE)
                 .addComponent(jButton4)
                 .addContainerGap())
             .addGroup(jPanel5Layout.createSequentialGroup()
@@ -182,40 +182,42 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap(39, Short.MAX_VALUE)
+                .addContainerGap(63, Short.MAX_VALUE)
                 .addComponent(jLabel4)
                 .addGap(18, 18, 18)
                 .addComponent(jButton4)
                 .addContainerGap())
         );
 
-        jPanel6.setBackground(new java.awt.Color(181, 181, 181));
+        jPanel7.setBackground(new java.awt.Color(181, 181, 181));
 
         jLabel6.setBackground(new java.awt.Color(9, 9, 9));
         jLabel6.setForeground(new java.awt.Color(5, 5, 5));
-        jLabel6.setText("TechnoCorp S/A has accepted your application for yyyy job offer");
+        jLabel6.setText("Your application for job yyyy has been accepted");
 
-        jButton5.setText("View");
+        jButton5.setText("View more");
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addComponent(jLabel6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap(467, Short.MAX_VALUE)
                 .addComponent(jButton5)
                 .addContainerGap())
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(42, 42, 42)
+                .addComponent(jLabel6)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap(39, Short.MAX_VALUE)
+                .addComponent(jLabel6)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jButton5))
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addComponent(jButton5)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -223,16 +225,14 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(197, 197, 197))
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(256, 256, 256)
-                        .addComponent(jLabel2)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                    .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
@@ -241,9 +241,9 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(28, 28, 28)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -332,7 +332,7 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        PessoaMySolicitations screen = new PessoaMySolicitations();
+        InicioFeedPessoa screen = new InicioFeedPessoa();
         screen.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -354,21 +354,23 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(InicioFeedPessoa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PessoaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(InicioFeedPessoa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PessoaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(InicioFeedPessoa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PessoaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(InicioFeedPessoa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PessoaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new InicioFeedPessoa().setVisible(true);
+                new PessoaMySolicitations().setVisible(true);
             }
         });
     }
@@ -393,6 +395,6 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     // End of variables declaration//GEN-END:variables
 }
