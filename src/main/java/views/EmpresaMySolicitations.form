@@ -189,6 +189,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="YOUR  JOB OFFERS"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButton2">
               <Properties>
@@ -312,7 +315,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                           <Component id="jLabel4" min="-2" pref="340" max="-2" attributes="0"/>
-                          <EmptySpace pref="98" max="32767" attributes="0"/>
+                          <EmptySpace pref="82" max="32767" attributes="0"/>
                           <Component id="jButton5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -340,13 +343,16 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="5" green="5" red="5" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="xxx users have applied for your job offer xxxx"/>
+                    <Property name="text" type="java.lang.String" value="2 users have applied for your job offer xxxx"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton5">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="view all"/>
+                    <Property name="text" type="java.lang.String" value="view more"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>
@@ -391,13 +397,16 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="5" green="5" red="5" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="yyy users have applied for your job offer yyyy"/>
+                    <Property name="text" type="java.lang.String" value="1 user has applied for your job offer yyyy"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton6">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="view all"/>
+                    <Property name="text" type="java.lang.String" value="view more"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>

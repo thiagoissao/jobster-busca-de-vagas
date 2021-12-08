@@ -341,6 +341,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="View more"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>
@@ -394,6 +397,9 @@
                   <Properties>
                     <Property name="text" type="java.lang.String" value="View more"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>

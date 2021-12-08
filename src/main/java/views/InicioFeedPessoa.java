@@ -164,14 +164,19 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(5, 5, 5));
         jLabel4.setText("Company XX S/A created a new job offer that matches your profile!");
 
-        jButton4.setText("Apply");
+        jButton4.setText("View");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap(503, Short.MAX_VALUE)
+                .addContainerGap(510, Short.MAX_VALUE)
                 .addComponent(jButton4)
                 .addContainerGap())
             .addGroup(jPanel5Layout.createSequentialGroup()
@@ -196,6 +201,11 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
         jLabel6.setText("TechnoCorp S/A has accepted your application for yyyy job offer");
 
         jButton5.setText("View");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -336,6 +346,18 @@ public class InicioFeedPessoa extends javax.swing.JFrame {
         screen.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        VisualizacaoVaga vVaga = new VisualizacaoVaga();
+        vVaga.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        VisualizacaoStatusVaga2 vVaga2 = new VisualizacaoStatusVaga2();
+        vVaga2.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments

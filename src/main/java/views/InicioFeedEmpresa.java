@@ -89,6 +89,11 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
         jPanel2.setForeground(new java.awt.Color(215, 215, 59));
 
         jButton1.setText("YOUR  JOB OFFERS");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("SOLICITATIONS");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -170,6 +175,11 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
         jLabel4.setText("User xxxx applied for your job offer xxxxxx");
 
         jButton5.setText("view");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -331,6 +341,18 @@ public class InicioFeedEmpresa extends javax.swing.JFrame {
         screen.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        YourJobOffers yJobOffers = new YourJobOffers();
+        yJobOffers.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        PerfilUser1 pUser1 = new PerfilUser1();
+        pUser1.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -165,6 +165,11 @@ public class PessoaMySolicitations extends javax.swing.JFrame {
         jLabel4.setText("Your application for job xxxx has not been accepted yet");
 
         jButton4.setText("View more");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -196,6 +201,11 @@ public class PessoaMySolicitations extends javax.swing.JFrame {
         jLabel6.setText("Your application for job yyyy has been accepted");
 
         jButton5.setText("View more");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -336,6 +346,18 @@ public class PessoaMySolicitations extends javax.swing.JFrame {
         screen.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        VisualizacaoStatusVaga1 vStatusVaga1 = new VisualizacaoStatusVaga1();
+        vStatusVaga1.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        VisualizacaoStatusVaga2 vStatusVaga2 = new VisualizacaoStatusVaga2();
+        vStatusVaga2.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments

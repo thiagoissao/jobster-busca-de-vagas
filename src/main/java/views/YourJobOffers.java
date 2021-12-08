@@ -8,12 +8,12 @@ package views;
  *
  * @author thiago
  */
-public class EmpresaMySolicitations extends javax.swing.JFrame {
+public class YourJobOffers extends javax.swing.JFrame {
 
     /**
      * Creates new form Inicio
      */
-    public EmpresaMySolicitations() {
+    public YourJobOffers() {
         initComponents();
     }
 
@@ -43,7 +43,7 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
-        jPanel6 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jButton6 = new javax.swing.JButton();
         btnCadastrar3 = new javax.swing.JButton();
@@ -89,14 +89,14 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(215, 215, 59));
         jPanel2.setForeground(new java.awt.Color(215, 215, 59));
 
-        jButton1.setText("YOUR  JOB OFFERS");
+        jButton1.setText("FEED");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
-        jButton2.setText("FEED");
+        jButton2.setText("SOLICITATIONS");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -167,15 +167,15 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(1, 1, 1));
         jLabel2.setFont(new java.awt.Font("Ubuntu", 1, 18)); // NOI18N
-        jLabel2.setText("MY SOLICITATIONS");
+        jLabel2.setText("You Job Offers");
 
         jPanel5.setBackground(new java.awt.Color(181, 181, 181));
 
         jLabel4.setBackground(new java.awt.Color(9, 9, 9));
         jLabel4.setForeground(new java.awt.Color(5, 5, 5));
-        jLabel4.setText("2 users have applied for your job offer xxxx");
+        jLabel4.setText("Your Job Offer xxxx, posted 3 days ago");
 
-        jButton5.setText("view more");
+        jButton5.setText("view info");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -188,50 +188,50 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(52, 52, 52)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34)
                 .addComponent(jButton5)
-                .addContainerGap())
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap(25, Short.MAX_VALUE)
+                .addContainerGap(26, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jButton5))
                 .addGap(17, 17, 17))
         );
 
-        jPanel6.setBackground(new java.awt.Color(181, 181, 181));
+        jPanel7.setBackground(new java.awt.Color(181, 181, 181));
 
         jLabel6.setBackground(new java.awt.Color(9, 9, 9));
         jLabel6.setForeground(new java.awt.Color(5, 5, 5));
-        jLabel6.setText("1 user has applied for your job offer yyyy");
+        jLabel6.setText("Your Job Offer yyyy, posted yesterday");
 
-        jButton6.setText("view more");
+        jButton6.setText("view info");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
                 .addComponent(jButton6)
-                .addContainerGap())
+                .addGap(41, 41, 41))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addContainerGap(24, Short.MAX_VALUE)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+                .addContainerGap(25, Short.MAX_VALUE)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(jButton6))
                 .addGap(17, 17, 17))
@@ -241,16 +241,16 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(174, 174, 174))
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(201, 201, 201)
-                .addComponent(jLabel2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -258,8 +258,8 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -349,26 +349,26 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        InicioFeedEmpresa inicioFeedEmpresa = new InicioFeedEmpresa();
-        inicioFeedEmpresa.setVisible(true);
+        EmpresaMySolicitations screen = new EmpresaMySolicitations();
+        screen.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        YourJobOffers yJobOffers = new YourJobOffers();
-        yJobOffers.setVisible(true);
-        dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        ViewSolicitationVaga vSv = new ViewSolicitationVaga();
-        vSv.setVisible(true);
+        PerfilVaga1 pVaga1 = new PerfilVaga1();
+        pVaga1.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        InicioFeedEmpresa feed = new InicioFeedEmpresa();
+        feed.setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        ViewSolicitationVaga2 vSv2 = new ViewSolicitationVaga2();
-        vSv2.setVisible(true);
+        PerfilVaga2 pVaga2 = new PerfilVaga2();
+        pVaga2.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
 
@@ -389,13 +389,13 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(EmpresaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(YourJobOffers.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(EmpresaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(YourJobOffers.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(EmpresaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(YourJobOffers.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(EmpresaMySolicitations.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(YourJobOffers.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -409,7 +409,7 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new EmpresaMySolicitations().setVisible(true);
+                new YourJobOffers().setVisible(true);
             }
         });
     }
@@ -435,6 +435,6 @@ public class EmpresaMySolicitations extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     // End of variables declaration//GEN-END:variables
 }
